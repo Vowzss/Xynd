@@ -31,13 +31,6 @@
 *.out
 *.app
 
-# User files
-*.idea
-*.vs
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
-
-# Build files
-**/Debug/
-**/Release/
+.vscode/
+.xmake/
+build/
