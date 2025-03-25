@@ -2,7 +2,7 @@
 
 #include "pch.h"
 
-class Network 
+class Networking
 {
 public:
 	static std::string getIpAddress(const sockaddr_in& addr)
@@ -32,7 +32,7 @@ public:
 	}
 	static void stopWinsock()
 	{
-		WSACleaup();
+		WSACleanup();
 	}
 	#endif
 };
