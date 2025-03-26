@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="enums">
+      <UniqueIdentifier>{2e64c102-cd40-4b7c-a8f4-70a7464d3479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{575bfd46-ccdd-4176-a4f6-d7c1e173c53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{5e46593d-abbe-455d-95fa-ce6b8d5ae56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sockets">
+      <UniqueIdentifier>{d7c94fcd-b2dd-4064-970c-0648357b566a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="packets">
+      <UniqueIdentifier>{580636f1-a728-4e91-8282-3ab3269080a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enums\socket_type.h">
+      <Filter>enums</Filter>
+    </ClInclude>
+    <ClInclude Include="models\connection_info.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="models\socket_param.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\constants.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\networking.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\sockets.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="packets\packet.h">
+      <Filter>packets</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets\cl_socket.h">
+      <Filter>sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets\socket.h">
+      <Filter>sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets\sv_socket.h">
+      <Filter>sockets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
